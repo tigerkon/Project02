@@ -6660,7 +6660,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Resume
+  m_Text: Restart
 --- !u!222 &1169028366
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6995,7 +6995,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentScoreTextView: {fileID: 1073897522}
   pausePanel: {fileID: 1665918714}
-  deathPannel: {fileID: 379002480}
 --- !u!4 &1515137636
 Transform:
   m_ObjectHideFlags: 0

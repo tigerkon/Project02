@@ -81,6 +81,7 @@ public class PlayerController : MonoBehaviour
         {
             deathPannel.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
             
     }

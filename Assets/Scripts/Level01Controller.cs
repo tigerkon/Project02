@@ -17,6 +17,7 @@ public class Level01Controller : MonoBehaviour
         
         pausePanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
     // Update is called once per frame
     void Update()
@@ -29,6 +30,7 @@ public class Level01Controller : MonoBehaviour
         {
             pausePanel.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 
@@ -53,6 +55,7 @@ public class Level01Controller : MonoBehaviour
     {
         pausePanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     
