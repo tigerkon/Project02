@@ -9,10 +9,12 @@ public class Level01Controller : MonoBehaviour
 {
     [SerializeField] Text _currentScoreTextView;
     [SerializeField] GameObject pausePanel;
+    
 
     int _currentScore;
     private void Start()
     {
+        
         pausePanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
     }
@@ -52,4 +54,6 @@ public class Level01Controller : MonoBehaviour
         pausePanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
     }
+
+    
 }
