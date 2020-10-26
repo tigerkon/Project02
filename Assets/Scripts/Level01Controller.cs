@@ -22,10 +22,7 @@ public class Level01Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            IncreaseScore(5);
-        }
+       
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             pausePanel.SetActive(true);

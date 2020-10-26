@@ -14,5 +14,6 @@ public class HazardVolume : MonoBehaviour
         {
             playerFPS.HealthLoss();
         }
+        Destroy(gameObject);
     }
 }
